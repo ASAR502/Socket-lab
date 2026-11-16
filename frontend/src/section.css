@@ -1,0 +1,56 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 40px;
+  margin: 20px 0;
+
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.section.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.donate-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donate-button {
+  background-color: #45a049;
+}
+
+.section-image {
+  max-width: 400px;
+  border-radius: 8px;
+}
